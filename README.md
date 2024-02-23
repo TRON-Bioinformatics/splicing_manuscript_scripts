@@ -5,7 +5,7 @@
 ## About
 
 This repository contains shell script to run tools for splicing analysis as shown in Figure 1B of the manuscript. (https://doi.org/10.1101/2023.06.27.546494).
-For an example please refer to the splice2neo documentation (https://github.com/TRON-Bioinformatics/splice2neo)
+For a splice2neo example please refer to the splice2neo documentation (https://github.com/TRON-Bioinformatics/splice2neo)
 
 | Step        | Sub-step        | Script      | Comment |
 | ----------- | ----------- | ----------- | ----------- |
