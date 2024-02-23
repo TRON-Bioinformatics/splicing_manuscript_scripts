@@ -2,11 +2,22 @@
 
 
 
-## Getting started
+## About
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+This repository contains shell script to run tools for splicing analysis as shown in Figure 1B of the manuscript. 
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+| Step        | Sub-step        | Script      | Comment |
+| ----------- | ----------- | ----------- | ----------- |
+| Mutation calling | Mapping       | mutation_calling_01_mapping.sh       | |
+|                       | Bam pre-processing        | mutation_calling_02_bam_processing.sh |  |
+|                       | Mutect2        | mutation_calling_03_mutect2.sh | |
+| Splicing effect prediction | SpliceAI        | mutation_effect_01_spliceAI.sh |example script for one sample |
+| Splicing effect prediction | MMsplice        | mutation_effect_02_MMsplice.sh |example script for one sample |
+| Splicing detection | SplAdder        | mutation_effect_02_MMsplice.sh |example script for one sample |
+
+
+
+
 
 ## Add your files
 
