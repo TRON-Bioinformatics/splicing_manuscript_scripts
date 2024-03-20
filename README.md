@@ -1,11 +1,12 @@
 # splicing_manuscript_shell_scripts
 
 
+This repository contains shell scripts to document and reproduce the analysis steps described in the manuscript
+[Lang et al. 2024, Prediction of tumor-specific splicing from somatic mutations as a source of neoantigen candidates](https://doi.org/10.1101/2023.06.27.546494) (see Figure 1B).
 
-## About
+- The splice2neo R-package is documented here: https://github.com/TRON-Bioinformatics/splice2neo
+- EasyQuant is available here: https://github.com/TRON-Bioinformatics/easyquant
 
-This repository contains shell script to run tools for splicing analysis as shown in Figure 1B of the manuscript. (https://doi.org/10.1101/2023.06.27.546494).
-For a splice2neo example please refer to the splice2neo documentation (https://github.com/TRON-Bioinformatics/splice2neo)
 
 | Step        | Sub-step        | Script      | Comment |
 | ----------- | ----------- | ----------- | ----------- |

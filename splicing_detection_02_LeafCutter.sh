@@ -15,7 +15,7 @@ outprefix=sample
 #===============================================================================
 
 /code/STAR \
-  --genomeDir /code/iCaM2/refs/genome_SJ/ \
+  --genomeDir /code/refs/genome_SJ/ \
   --genomeLoad NoSharedMemory \
   --twopassMode Basic \
   --outSAMstrandField intronMotif \
