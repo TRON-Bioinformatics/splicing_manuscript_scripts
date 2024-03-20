@@ -6,6 +6,7 @@ This repository contains shell scripts to document and reproduce the analysis st
 
 - The splice2neo R-package is documented here: https://github.com/TRON-Bioinformatics/splice2neo
 - EasyQuant is available here: https://github.com/TRON-Bioinformatics/easyquant
+- TRONflow pipelines are documented here: https://github.com/TRON-Bioinformatics/tronflow
 
 
 | Step        | Sub-step        | Script      | Comment |
