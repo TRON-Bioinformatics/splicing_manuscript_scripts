@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-run_misplice.py is a simple wraper to start MMsplice from the commandline. 
+run_misplice.py is a simple wrapper to start MMsplice from the commandline. 
 See https://github.com/gagneurlab/MMSplice_MTSplice
 
 """
@@ -39,7 +39,7 @@ def commandline():
       epilog=epilog)
     
     parser.add_argument("-i", "--input_file", type=str, required=True, help="Input VCF file with variants.")
-    parser.add_argument("-o", "--output_file", type=str, required=True, help="Ouput file in fomrat from MMsplice.")
+    parser.add_argument("-o", "--output_file", type=str, required=True, help="Output file in format from MMsplice.")
     parser.add_argument("-g", "--genome_seq", type=str, required=True, help="Reference genome sequence in FASTA format.")
     parser.add_argument("-gtf", "--gtf_file", type=str, required=True, help="Reference GTF file with transcript annotations.")
 
